@@ -12,11 +12,52 @@ artifacts/
 /scripts/live-chat-smoke.mjs
 *.zip
 
-# Local editor and agent settings
+# Local editor settings
 .vscode/
 .vs/
+
+# AI assistants: local configuration, instructions, sessions and history
 .codex/
 .agents/
+.claude/
+.cursor/
+.windsurf/
+.gemini/
+.continue/
+.copilot/
+.roo/
+.cline/
+.opencode/
+**/AGENTS.md
+**/AGENTS.override.md
+**/CLAUDE.md
+**/CLAUDE.local.md
+**/GEMINI.md
+**/SKILL.md
+.cursorrules
+.cursorignore
+.windsurfrules
+.aider*
+.mcp.json
+.mcp.yaml
+.mcp.yml
+/.github/copilot-instructions.md
+/.github/agents/
+/.github/instructions/
+/.github/prompts/
+
+# Local environment, logs and temporary files
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
 
 # Generated Android/iOS directories (also covered by the general rules below)
 /android/build/
