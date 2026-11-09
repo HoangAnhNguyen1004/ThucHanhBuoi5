@@ -6,8 +6,8 @@
 artifacts/
 *-debug.log
 
-# Source submission: keep screenshots as a separate deliverable.
-/screenshots/
+# Submission files excluded from the repository (screenshots are versioned).
+/screenshots/*.json
 **/[Rr][Ee][Aa][Dd][Mm][Ee]*
 /scripts/live-chat-smoke.mjs
 *.zip
